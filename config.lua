@@ -35,8 +35,9 @@ lvim.format_on_save = false
 -- lvim.colorscheme = "ayu"
 -- lvim.colorscheme = "noctis"
 -- lvim.colorscheme = "catppuccin"
-lvim.colorscheme = "kanagawa"
-lvim.transparent_window = true
+-- lvim.colorscheme = "kanagawa"
+lvim.colorscheme = "moonbow"
+-- lvim.transparent_window = true
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 --
@@ -288,6 +289,7 @@ lvim.plugins = {
   },
   {'mbbill/undotree'},
   {'nvim-treesitter/playground'},
+  {'arturgoms/moonbow.nvim'}
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
